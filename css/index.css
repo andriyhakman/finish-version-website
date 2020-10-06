@@ -12,6 +12,26 @@ body {
     padding: 0;
 }
 
+#header {
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 980px;
+    min-width: auto;
+    opacity: 1;
+}
+#header {
+    margin-bottom: 115px;
+}
+#header .col-md-3 {
+    margin-left: 100px;
+}
+#header #navbarNav {
+    justify-content: flex-end;
+}
+#header #navbarNav .nav-item a {
+    color: white;
+}
 .header-nav .navbarNav {
     justify-content: flex-end;
     flex: 1;
@@ -22,17 +42,13 @@ body {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--main-color);
+    color: black;
     padding: 5px;
     border: 1px solid transparent;
 }
 
 .header-nav .navbarNav a:hover{
     border: 1px solid var(--main-color);
-}
-
-.header {
-
 }
 
 .header-nav {
@@ -44,48 +60,191 @@ body {
     background-position: top;
     background-size: cover;
     min-height: 400px;
-    display: flex;
-    align-items:center;
-    justify-content: center;
+    display: table;
+    align-items: center;
+    justify-content: right;
     flex-direction: column;
 }
 
-.header-banner h1 {
-    font-size: 3.5rem;
-    color: var(--accent-color);
-}
+#header .header-banner h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
 
-@media (min-width: 500px) {
-    .portfolio-list {
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
-    }
 }
-
-@media (min-width: 660px) {
-    .portfolio-list {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+#header .header-banner h1 {
+    margin-top: 333px;
 }
-
-@media (min-width: 980px) {
-    .portfolio-list {
-        grid-template-columns: 4, 1fr;
-    }
+#about-us .man-picture {
+    width: 100%;
 }
-
+#about-us {
+    margin-top: 115px;
+    margin-bottom: 100px;
+}
+#portfolio {
+    margin-bottom: 159px;
+}
+#portfolio .block-title {
+    color: white;
+}
+#portfolio-title {
+    background-image: url(../img/background-second.png);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+    min-width: auto;
+    opacity: 1;
+    color: white;
+}
+#portfolio .portfolio-list {
+    margin-top: 30px;
+}
+#portfolio-title {
+    padding: 15px;
+}
+#portfolio-title {
+    margin-bottom: 30px;
+}
+#portfolio .portfolio-list a {
+    color: white;
+}
+#portfolio .block-title {
+    text-align: center;
+}
+#portfolio .block-title h2 {
+    text-align: center;
+}
+#price {
+    margin-bottom: 100px;
+}
+#price .block-title {
+    margin-bottom: 60px;
+}
+#price {
+    text-align: center;
+}
+#price img {
+    width: 100%;
+}
+#price .calculator {
+    margin-top: 100px;
+}
+#price .price-list {
+    list-style-type: square;
+}
+#scheme-job {
+    margin-bottom: 100px;
+}
+#scheme-job {
+    padding: 15px;
+}
+#scheme-job .block-title {
+    margin-bottom: 30px;
+}
+#scheme-job {
+    background-image: url(../img/background-second.png);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+    min-width: auto;
+    opacity: 1;
+    color: white;
+}
+#scheme-job {
+    margin: auto;
+    text-align: center;
+}
+.scheme-answers {
+    text-align: end;
+}
+#scheme-job .block-title {
+    color: white;
+}
+#reviews-about-us {
+    margin-bottom: 100px;
+}
+#reviews-about-us .block-title {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+#reviews-about-us {
+    text-align: center;
+}
+#contacts {
+    background-image: url(../img/contacts-background.png);
+    margin-top: 189px;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+    min-width: auto;
+    opacity: 1;
+}
+#contacts .block-title {
+    margin-top: 44px;
+    margin-bottom: 60px;
+}
+#contacts #footer-item a {
+    color: white;
+}
+#contacts .block-title {
+    text-align: center;
+}
+#form-action {
+    text-align: center;
+}
+#footer-logo {
+    background-image: url(../img/footer-logo.png);
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+    min-width: auto;
+    opacity: 1;
+}
+#footer-item {
+    background-image: url(../img/footer-logo.png);
+}
+#footer-item {
+    text-align: center;
+}
+#footer-item {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: transparent;
+}
+#footer-item .list-item {
+    list-style-type: none;
+}
+#footer-social-icon {
+    background-image: url(../img/footer-logo.png);
+    margin-top: 100px;
+}
+#footer-logo {
+    padding: 15px;
+}
+#social-code {
+    text-align: center;
+}
 /* Controls */
 
 .button {
-    padding: 2em 6rem;
     border: 0.1em solid #FFFFFF;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
+    width: 229px;
+    height: 50px;
+    left: 34px;
+    top: 463px;
+    border-radius: 0;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     transition: all 0.7s;
     background-color: red;
+}
+.button {
+    text-align: center;
 }
 
 .button:hover {
@@ -102,4 +261,55 @@ body {
 .card-button:hover {
     background-color: black;
     color: white;
+}
+.contacts-button {
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0;
+    color: #FFFFFF;
+    text-align: left;
+    transition: all 0.7s;
+    background-color: red;
+}
+
+.contacts-button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.card-contacts-button {
+    border-color: black;
+    color: black;
+}
+
+.card-contacts-button:hover {
+    background-color: black;
+    color: white;
+}
+#form-action {
+    padding:10px;
+    margin:5px 15px;
+    border-radius:5px;
+}
+.block-title  {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .block-title {
+        font-size: 24px;
+    }
+    #header .header-banner h1 {
+        font-size: 34px;
+    }
 }
